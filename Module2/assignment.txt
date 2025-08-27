@@ -1,0 +1,20 @@
+1. Initial Setup
+Step 1.1: Select the Website
+The first step in web scraping is to choose the website you want to scrape from. For this lab, a baseball_stats.html page has been provided for you, which lists betting odds and game stats. You'll be scraping this site to collect statistics for several baseball games, including:
+Expected runs
+Over/under bets
+Moneyline favorite
+
+Step 1.2: Launch the Development Server
+In order to view and scrape the baseball_stats.html page, you’ll launch a development server from this lab environment. You will need to follow these steps each time you reboot the lab.
+
+First, click the ‘Go Live’ button at the bottom-right of the VS Code lab window. This will start the Live Server. If you encounter issues, you can try disabling any ad-blockers or use a different web browser.
+
+Once the Live Server has been started, click the ‘Open Development Server’ button near the bottom-left of the VS Code lab window. This will open a tab that shows the Baseball Game Statistics page on your local web browser. This is the page you will analyze and scrape for the following activities in this lab.
+
+Step 1.3 Install Dependencies
+You will be using some external libraries for this lab such as BeautifulSoup and pandas, which need to be installed. Open your terminal using ctrl-` or navigate to View -> Terminal and enter the following command:
+
+pip install bs4 pandas lxml
+
+When working locally, you would only have to install these libraries once. However, for this lab environment, you will need to run this command each time you reboot the lab.
